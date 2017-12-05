@@ -26,9 +26,9 @@ componentDidMount() {
       return (
         <div className="page">
 
-          <div className="productPage">
+          <div className="playerPage">
 
-            {this.state.stations.map((item) => {
+            {this.state.stations.slice(0, 3).map((item) => {
               return <Station
                 radioName={item.name}
                 radioUrl={item.liveaudio.url}
