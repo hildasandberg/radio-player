@@ -1,12 +1,12 @@
 import React from "react"
-import Station from "./station.js"
+import Page from "./page.js"
 
 class App extends React.Component {
 
   render() {
     return (
       <div>
-        <Station />
+        <Page />
       </div>
     )
   }
