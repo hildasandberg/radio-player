@@ -11,7 +11,7 @@ class Page extends React.Component {
   }
 
 componentDidMount() {
-    fetch("http://api.sr.se/api/v2/channels?format=json&size=100").then((response) => {
+    fetch("https://api.sr.se/api/v2/channels?format=json&size=100").then((response) => {
       return response.json()
     }).then((json) => {
       console.log(json)
